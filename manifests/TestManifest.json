@@ -1,0 +1,54 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://min6choi.github.io/TestManifest/manifests/TestManifest.json",
+  "@type" : "sc:Manifest",
+  "label" : "Aldo Leopold papers : 9/25/10-7 : Diaries and Journals",
+  "metadata" : [ ],
+  "description" : [ {
+    "@value" : "Contains selected quotations from books and articles that Leopold read over the years--primarily from c. 1914 to the early 1930s. The notebook is an excellent source of insight into the works and authors that influenced Leopold during these years. Many of the quotations he eventually wove into his own books and articles, sometimes repeatedly",
+    "@language" : "en"
+  } ],
+  "license" : "https://creativecommons.org/licenses/by/3.0/",
+  "attribution" : "Archival Resources in Wisconsin: Descriptive Finding Aids",
+  "sequences" : [ {
+    "@id" : "http://5368aee5-63a8-4340-b18f-522fc9c237a9",
+    "@type" : "sc:Sequence",
+    "label" : [ {
+      "@value" : "Normal Sequence",
+      "@language" : "en"
+    } ],
+    "canvases" : [ {
+      "@id" : "http://2327c3dd-8045-4721-9d82-7dd844d59ec1",
+      "@type" : "sc:Canvas",
+      "label" : "7",
+      "height" : "1964",
+      "width" : "1296",
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://9886fdc5-990a-4bab-8cdb-640c1c5fe3eb",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "http://localhost:8182/iiif/2/a.jpg/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "http://localhost:8182/iiif/2/a.jpg",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "formats" : [ "jpg", "tif", "gif", "png" ],
+              "maxArea" : 2545344,
+              "qualities" : [ "bitonal", "default", "gray", "color" ],
+              "supports" : [ "regionByPx", "sizeByW", "sizeByWhListed", "cors", "regionSquare", "sizeByDistortedWh", "canonicalLinkHeader", "sizeByConfinedWh", "sizeByPct", "jsonldMediaType", "regionByPct", "rotationArbitrary", "sizeByH", "baseUriRedirect", "rotationBy90s", "profileLinkHeader", "sizeByForcedWh", "sizeByWh", "mirroring" ]
+            } ]
+          },
+          "height" : 1964,
+          "width" : 1296
+        },
+        "on" : "http://2327c3dd-8045-4721-9d82-7dd844d59ec1"
+      } ],
+      "related" : ""
+    } ]
+  } ],
+  "structures" : [ ]
+}
