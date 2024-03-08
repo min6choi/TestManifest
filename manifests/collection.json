@@ -1,0 +1,13 @@
+{
+  "id" : "https://min6choi.github.io/TestManifest/manifests/collection.json",
+  "label" : {
+    "en" : [ "All manifests loaded in min6choi/TestManifest project" ]
+  },
+  "type" : "Collection",
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "items" : [ {
+    "@type" : "sc:Manifest",
+    "@id" : "https://min6choi.github.io/TestManifest/manifests/TestManifest.json",
+    "label" : "Aldo Leopold papers : 9/25/10-7 : Diaries and Journals"
+  } ]
+}
